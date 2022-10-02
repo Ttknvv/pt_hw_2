@@ -1,5 +1,4 @@
-print('Введите вещественное число = ')
-number = input()
+number = input('Введите вещественное число = ')
 sum = 0
 
 for i in number:
