@@ -14,11 +14,11 @@ for i in range(num):
 
 ind = 0
 sch = 0
-while sch == len(mass):
+while sch != len(mass):
     ind = rand(0, len(mass))
     if ind not in mass0:
         mass0.append(ind)
         sch = sch + 1
 
 for i in range(0, len(mass0)):
-    print(i)
+    print(mass0[i])
